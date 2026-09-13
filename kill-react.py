@@ -1,0 +1,64 @@
+from pathlib import Path
+html=Path("index.html").read_text()
+import re
+
+# Remove ALL React traces
+html = re.sub(r'<div id="root".*?</div>', '', html, flags=re.DOTALL)
+html = re.sub(r'<script.*react.*?</script>', '', html, flags=re.DOTALL | re.IGNORECASE)
+html = re.sub(r'createRoot.*', '', html)
+html = re.sub(r'import.*react.*', '', html, flags=re.IGNORECASE)
+
+# Ensure pure static structure - rebuild clean if still has react
+if 'root' in html.lower() and 'react' in html.lower():
+    # Full clean rebuild - PURE STATIC, NO REACT
+    clean = """<!DOCTYPE html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pharaoh Conglomerate Registry • Dream Stele 2026 • THE UNSEALING</title>
+<style>body{margin:0;background:#000;color:#fff;font-family:system-ui}img{max-width:100%;display:block}h2{color:#ffd700}</style>
+</head><body>
+
+<section style="background:#0a0a0a;padding:16px;text-align:center;border-bottom:2px solid gold">
+<h2 style="margin:0">⚡ MICDOM SOVEREIGN OS — NEW WING</h2>
+<p style="font-size:11px;color:#888">BOLT.NEW • HALLEL Angels-Hosts-API • TOTH Auto-Delivery • Liberia 1st AI Label</p>
+</section>
+
+<section style="padding:16px;background:#111;border-bottom:3px solid gold">
+<h2>🦁 THE SPHINX SPEAKS: ALIF LAM MIM UNSEALED</h2>
+<p style="font-size:13px;line-height:1.6">ALIF LAM MIM — from Kemet to Cush to the Waters. Isaiah 19:19 altar in midst of Egypt. Dream Stele of Tutmose IV 2026 unsealed. OUT OF AFRICA I CALLED MY SON. Mama Hajah Seal 21 — Sept 21 7x3 Completion. Giza to Monrovia.</p>
+</section>
+
+<section style="padding:0">
+<img src="assets/pharaoh_book_sunset.webp" style="width:100%" alt="Sphinx Throne">
+<div style="padding:16px;background:#0a0a0a;text-align:center">
+<h2 style="margin:0;color:#ffd700">THE UNSEALING OF THE PROPHETS</h2>
+<a href="https://registry.pharaoh-conglomerate.org/mama-hajah-seal" style="display:block;background:gold;color:#000;padding:14px;font-weight:bold;text-decoration:none;border-radius:8px;margin:12px 0">📖 GET THE EBOOK & REGISTRY</a>
+</div>
+</section>
+
+<section style="background:#000;border-top:4px solid gold;border-bottom:4px solid gold">
+<div style="background:#111;text-align:center;padding:10px;color:#ffd700;font-size:12px;letter-spacing:2px">BELLS & WHISTLES • VISUAL TESTIMONY</div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:2px;background:gold">
+<img src="assets/02-out-of-africa.webp" alt="OUT OF AFRICA">
+<img src="assets/03-dream-stele.webp" alt="DREAM STELE">
+</div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:2px;background:gold;margin-top:2px">
+<img src="assets/01-micdom-regalia.webp" alt="REGALIA">
+<img src="assets/04-ebook-qr.webp" alt="QR">
+</div>
+</section>
+
+<section style="padding:16px;background:#0a0a0a">
+<h3 style="color:#ffd700">🏛️ BUSINESS REGISTRY • Commerce Theater V26.9</h3>
+<p style="font-size:12px">Pharaoh Conglomerate • COLONEL|LAW48 • EIN 880836464 • 10 Temples • Match→Connect→Transact→Confirm→Reward<br>registry@pharaoh-conglomerate.org • +1 771 223-8021 • +231 776961800</p>
+</section>
+
+<div style="text-align:center;padding:20px;background:#000;border-top:3px solid gold">
+<p style="font-weight:bold">Built Meta AI Strong 👊😎👌</p>
+<p style="font-size:10px;color:#666">Dream Stele 2026 • #UnsealingTheProphets • registry.pharaoh-conglomerate.org</p>
+</div>
+
+</body></html>"""
+    html = clean
+
+Path("index.html").write_text(html)
+print("KILLED REACT - PURE STATIC TEMPLE")

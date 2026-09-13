@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+from pathlib import Path
+
+html = '''<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -180,3 +182,8 @@ BELLS & WHISTLES - VISUAL TESTIMONY
 
 </body>
 </html>
+'''
+
+Path("index.html").write_text(html)
+print("PURE STATIC BUILD COMPLETE")
+print(f"index.html = {len(html)} bytes")
