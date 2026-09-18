@@ -1,14 +1,16 @@
-# The Unsealing of the Prophets — CENTERPIECE
-## Micdom AI Records Ministry | Commonwealth of Israel | Genesis 1:28
+# Commonwealth of Israel Church → Micdom AI Records Ministry
+## The Unsealing of the Prophets — CENTERPIECE — Centerpiece.webp
 
-**Book is Centerpiece — Affiliate Accelerator supports Ministry**
+Architecture:
+COMMONWEALTH OF ISRAEL CHURCH
+  → ministry.pharaoh-conglomerate.org
+    ├── THE UNSEALING OF THE PROPHETS (CENTERPIECE — Centerpiece.webp 368K — ASIN B0B3H8886Z)
+    ├── MICDOM AI RECORDS MINISTRY (Music/Publications/Human Rights/AI)
+    ├── GENESIS 1:28 STEWARDSHIP — Dominion
+    ├── REGISTRY — continuity / platform architecture (preserved, not deleted)
+    └── BUSINESS STEWARDSHIP — Choice Businesses / Affiliate modules
 
-> Be fruitful, and multiply, and replenish the earth, and subdue it: and have dominion — Genesis 1:28
-
-Formerly Human Rights Angels Registry Inc — Dissolving — $800 FTB tax stop.
-
-- Domain: ministry.pharaoh-conglomerate.org
-- Email: Ministry@pharaoh-conglomerate.org ONLY — Registry@ dead
-- Donations: Orange Money Only
-
-Book: The Unsealing of the Prophets — Giza to Monrovia — Mama Hajah Seal 2.0
+- Ministry: Ministry@pharaoh-conglomerate.org ONLY — No Registry@
+- Orange: +231 776 961 800 — US: +1 (771) 223-8021
+- Book: ASIN B0B3H8886Z — $0.00 Kindle Unlimited / $9.99
+- No ankh — Title Pharaoh + Sphinx only
