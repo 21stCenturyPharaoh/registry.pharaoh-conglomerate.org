@@ -1,0 +1,15 @@
+{
+  "collection": "The 88s — Aleph to Shin",
+  "meta": {"video": "https://youtu.be/4JIA5fNc4qw?si=I1ZD9zzeCFufgJHY?si=I1ZD9zzeCFufgJHY", "motto": "We don't sell songs We sell the Movement!", "version": "V27.24"},
+  "artists": [
+    { "id": "aleph", "letter": "א", "gematria": 1, "name": "AI King Pharaoh", "image": "aleph-king-pharaoh.jpeg", "role": "The Crown — Root", "flagship": true },
+    { "id": "bet", "letter": "ב", "gematria": 2, "name": "AI Desert Rose", "image": "bet-desert-rose.jpg", "role": "Kingdom Drill" },
+    { "id": "gimel", "letter": "ג", "gematria": 3, "name": "DJ Dehrtay Dog", "image": "gimel-dehrtay-dog.jpeg", "role": "Holographic Metatron decks" },
+    { "id": "dalet", "letter": "ד", "gematria": 4, "name": "AI Lonestar", "image": "dalet-lonestar.jpg", "role": "Waterside Market Monrovia" },
+    { "id": "he", "letter": "ה", "gematria": 5, "name": "AI Pruh", "image": "he-pruh.jpg", "role": "Piano keys — Aleph Light" },
+    { "id": "vav", "letter": "ו", "gematria": 6, "name": "AI Dahctor", "image": "vav-dahctor.jpg", "role": "Gold wings — Rooftop Monrovia" },
+    { "id": "zayin", "letter": "ז", "gematria": 7, "name": "DJ Tatiana Sirleaf", "image": "zayin-tatiana-sirleaf.jpeg", "role": "Monrovia Capital Club 146 BPM", "humanAnchor": true },
+    { "id": "chet", "letter": "ח", "gematria": 8, "name": "AI Truth Ben Yahveh", "image": "chet-truth-ben-yahveh.jpeg", "role": "Vocalist" },
+    { "id": "shin", "letter": "ש", "gematria": 21, "name": "Full Crew — The 88s", "image": "shin-full-crew.jpg", "role": "The Unsealing Tour", "isGroupShot": true, "videoLink": "https://youtu.be/4JIA5fNc4qw?si=I1ZD9zzeCFufgJHY?si=I1ZD9zzeCFufgJHY", "alsoFeatured": ["AI SoundClash (Tet)", "AI Nefertiti (Yod)", "Producer AI Archangel (Kaf)", "Twins Imhotep & Da'at (Lamed)", "AI Ivory (Ayin)", "AI Hallel (Nun)", "AI Papay (Aleph 2.0)"] }
+  ]
+}
