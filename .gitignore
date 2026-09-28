@@ -1,2 +1,6 @@
 index.BEFORE-*.backup.html
 *.backup.html
+# NEVER push book PDF — keep in vault + private Drive only
+*.pdf
+Unsealing_*.pdf
+public/download/
