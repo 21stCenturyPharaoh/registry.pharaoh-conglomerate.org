@@ -5,3 +5,5 @@ index.BEFORE-*.backup.html
 Unsealing_*.pdf
 public/download/
 public/download/
+PRIVATE_*
+C_CORP_ID.txt
