@@ -1,9 +1,9 @@
 index.BEFORE-*.backup.html
 *.backup.html
-# NEVER push book PDF — keep in vault + private Drive only
+# NEVER push full book PDF — keep in vault + private Drive only
 *.pdf
+# EXCEPTION: Allow autographed shell for $77 tier
+!public/download/Unsealing_439_Autographed.pdf
 Unsealing_*.pdf
-public/download/
-public/download/
 PRIVATE_*
 C_CORP_ID.txt
